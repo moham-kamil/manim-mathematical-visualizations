@@ -1,0 +1,36 @@
+name: Checks and render smoke test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            pyproject.toml
+            constraints.txt
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg pkg-config libcairo2-dev libpango1.0-dev fonts-dejavu-core texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-science dvisvgm
+      - name: Install project and development tools
+        run: python -m pip install -c constraints.txt -e '.[dev]'
+      - name: Check code and mathematics
+        run: |
+          python -m ruff check .
+          python -m ruff format --check .
+          python -m pytest -q
+      - name: Render transpose smoke test
+        run: python -m manim -ql --fps 30 src/matrix_transpose.py MatrixTranspose
