@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "method": "Manual inspection of four native final-video contact sheets (six sampled frames per scene), low-resolution animation previews and sampled decoded GIF frames.",
+  "final_video_samples": 24,
+  "gif_samples": 4,
+  "observations": {
+    "MatrixMultiplication": "Sliding guides, copied operands, all six entries and final product inspected.",
+    "MatrixTranspose": "Upright entry motion, rectangular dimensions and final transposition inspected.",
+    "GaussJordanInverse": "Arc swap, full augmented operations, synchronized multiple label, safe arrow lane and inverse extraction inspected.",
+    "PlaneIntersection": "Plane window margins, moving common point, fixed formula and orbit inspected."
+  },
+  "video_sha256": {
+    "videos/matrix_multiplication.mp4": "4d6735509a5cf6bb4ac7612ee8fc585840f8180db024f32720f2e0253d723fde",
+    "videos/matrix_transpose.mp4": "377545d159dbc36db8ec7be1f716ef42defcd4f5bd69a1907cee9e0fbe94b8e9",
+    "videos/gauss_jordan.mp4": "5345a04efd0f3b2af73e3b341104f8d2e6658718942a693e0592f7d2dc9184c3",
+    "videos/plane_intersection.mp4": "b6e507342a6907f1ccf0a896cddb1d279cea3f969560898b27a1f4924b1b6a9f"
+  },
+  "original_python_files_unchanged": 125,
+  "limits": "Sampled visual review; full-frame format/timing/blank/border checks are recorded in validation.json."
+}

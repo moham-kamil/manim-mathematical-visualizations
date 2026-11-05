@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "renderer": "Manim Community 0.19.0 / Cairo",
+  "videos": [
+    {
+      "file": "videos/matrix_multiplication.mp4",
+      "sha256": "4d6735509a5cf6bb4ac7612ee8fc585840f8180db024f32720f2e0253d723fde",
+      "bytes": 835503,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames_decoded": 819,
+      "duration_seconds": 13.65,
+      "codec": "H.264 / yuv420p",
+      "audio_streams": 0,
+      "unexpected_blank_frames": 0,
+      "clipped_border_frames": 0,
+      "initial_fade_blank_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "timestamp_check": "Every frame advances by 1/60 second.",
+      "gif": {
+        "file": "previews/matrix_multiplication.gif",
+        "frames_decoded": 205,
+        "resolution": [
+          640,
+          360
+        ],
+        "duration_seconds": 13.67,
+        "bytes": 645504
+      },
+      "scene": "MatrixMultiplication"
+    },
+    {
+      "file": "videos/matrix_transpose.mp4",
+      "sha256": "377545d159dbc36db8ec7be1f716ef42defcd4f5bd69a1907cee9e0fbe94b8e9",
+      "bytes": 401419,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames_decoded": 513,
+      "duration_seconds": 8.55,
+      "codec": "H.264 / yuv420p",
+      "audio_streams": 0,
+      "unexpected_blank_frames": 0,
+      "clipped_border_frames": 0,
+      "initial_fade_blank_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "timestamp_check": "Every frame advances by 1/60 second.",
+      "gif": {
+        "file": "previews/matrix_transpose.gif",
+        "frames_decoded": 128,
+        "resolution": [
+          640,
+          360
+        ],
+        "duration_seconds": 8.54,
+        "bytes": 272627
+      },
+      "scene": "MatrixTranspose"
+    },
+    {
+      "file": "videos/gauss_jordan.mp4",
+      "sha256": "5345a04efd0f3b2af73e3b341104f8d2e6658718942a693e0592f7d2dc9184c3",
+      "bytes": 1208464,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames_decoded": 1056,
+      "duration_seconds": 17.6,
+      "codec": "H.264 / yuv420p",
+      "audio_streams": 0,
+      "unexpected_blank_frames": 0,
+      "clipped_border_frames": 0,
+      "initial_fade_blank_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "timestamp_check": "Every frame advances by 1/60 second.",
+      "gif": {
+        "file": "previews/gauss_jordan.gif",
+        "frames_decoded": 264,
+        "resolution": [
+          640,
+          360
+        ],
+        "duration_seconds": 17.6,
+        "bytes": 1040343
+      },
+      "scene": "GaussJordanInverse"
+    },
+    {
+      "file": "videos/plane_intersection.mp4",
+      "sha256": "b6e507342a6907f1ccf0a896cddb1d279cea3f969560898b27a1f4924b1b6a9f",
+      "bytes": 1268861,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames_decoded": 810,
+      "duration_seconds": 13.5,
+      "codec": "H.264 / yuv420p",
+      "audio_streams": 0,
+      "unexpected_blank_frames": 0,
+      "clipped_border_frames": 0,
+      "initial_fade_blank_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "timestamp_check": "Every frame advances by 1/60 second.",
+      "gif": {
+        "file": "previews/plane_intersection.gif",
+        "frames_decoded": 203,
+        "resolution": [
+          640,
+          360
+        ],
+        "duration_seconds": 13.54,
+        "bytes": 1984790
+      },
+      "scene": "PlaneIntersection"
+    }
+  ],
+  "scope": "Full video/GIF decoding and format checks. Manual review is documented separately."
+}
